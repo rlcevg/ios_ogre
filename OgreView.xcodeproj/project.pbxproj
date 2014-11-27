@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E0B3C671A216A2700023DF2 /* media in Resources */ = {isa = PBXBuildFile; fileRef = 3E0B3C641A216A2700023DF2 /* media */; };
+		3E0B3C681A216A2700023DF2 /* ogre.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 3E0B3C651A216A2700023DF2 /* ogre.cfg */; };
+		3E0B3C691A216A2700023DF2 /* resources.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 3E0B3C661A216A2700023DF2 /* resources.cfg */; };
+		3E954AA71A1F9462000A3813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E954AA61A1F9462000A3813 /* main.m */; };
+		3E954AAA1A1F9462000A3813 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E954AA91A1F9462000A3813 /* AppDelegate.m */; };
+		3E954AAD1A1F9462000A3813 /* OgreViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E954AAC1A1F9462000A3813 /* OgreViewController.mm */; };
+		3E954AB01A1F9462000A3813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E954AAE1A1F9462000A3813 /* Main.storyboard */; };
+		3E954AB21A1F9462000A3813 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E954AB11A1F9462000A3813 /* Images.xcassets */; };
+		3E954AB51A1F9462000A3813 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E954AB31A1F9462000A3813 /* LaunchScreen.xib */; };
+		3E954AC11A1F9463000A3813 /* OgreViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E954AC01A1F9463000A3813 /* OgreViewTests.m */; };
+		3EED63501A1FC204006345B7 /* OgreView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3EED634F1A1FC204006345B7 /* OgreView.mm */; };
+		3EEFAD861A24A715001F4F49 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEFAD851A24A715001F4F49 /* ListViewController.m */; };
+		3EEFAD8B1A253ED7001F4F49 /* SGTRListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EEFAD891A253ED7001F4F49 /* SGTRListener.cpp */; };
+		3EF588BB1A20B580007B2F1A /* OgreController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EF588B91A20B57F007B2F1A /* OgreController.cpp */; };
+		3EFA9BD81A2391950047025A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFA9BD71A2391950047025A /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E954ABB1A1F9463000A3813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E954A991A1F9462000A3813 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E954AA01A1F9462000A3813;
+			remoteInfo = OgreView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E0B3C641A216A2700023DF2 /* media */ = {isa = PBXFileReference; lastKnownFileType = folder; path = media; sourceTree = "<group>"; };
+		3E0B3C651A216A2700023DF2 /* ogre.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ogre.cfg; sourceTree = "<group>"; };
+		3E0B3C661A216A2700023DF2 /* resources.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = resources.cfg; sourceTree = "<group>"; };
+		3E954AA11A1F9462000A3813 /* OgreView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OgreView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E954AA51A1F9462000A3813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E954AA61A1F9462000A3813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E954AA81A1F9462000A3813 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E954AA91A1F9462000A3813 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E954AAB1A1F9462000A3813 /* OgreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OgreViewController.h; sourceTree = "<group>"; };
+		3E954AAC1A1F9462000A3813 /* OgreViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OgreViewController.mm; sourceTree = "<group>"; };
+		3E954AAF1A1F9462000A3813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E954AB11A1F9462000A3813 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3E954AB41A1F9462000A3813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3E954ABA1A1F9463000A3813 /* OgreViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OgreViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E954ABF1A1F9463000A3813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E954AC01A1F9463000A3813 /* OgreViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OgreViewTests.m; sourceTree = "<group>"; };
+		3EED634E1A1FC204006345B7 /* OgreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OgreView.h; sourceTree = "<group>"; };
+		3EED634F1A1FC204006345B7 /* OgreView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OgreView.mm; sourceTree = "<group>"; };
+		3EEFAD841A24A715001F4F49 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		3EEFAD851A24A715001F4F49 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		3EEFAD881A24B04C001F4F49 /* IOgreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOgreViewController.h; sourceTree = "<group>"; };
+		3EEFAD891A253ED7001F4F49 /* SGTRListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SGTRListener.cpp; sourceTree = "<group>"; };
+		3EEFAD8A1A253ED7001F4F49 /* SGTRListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGTRListener.h; sourceTree = "<group>"; };
+		3EF588B91A20B57F007B2F1A /* OgreController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OgreController.cpp; sourceTree = "<group>"; };
+		3EF588BA1A20B580007B2F1A /* OgreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OgreController.h; sourceTree = "<group>"; };
+		3EFA9BD61A2391950047025A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3EFA9BD71A2391950047025A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3EFA9BD91A23982C0047025A /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E954A9E1A1F9462000A3813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E954AB71A1F9463000A3813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E0B3C631A2169D800023DF2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E0B3C641A216A2700023DF2 /* media */,
+				3E0B3C651A216A2700023DF2 /* ogre.cfg */,
+				3E0B3C661A216A2700023DF2 /* resources.cfg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3E954A981A1F9462000A3813 = {
+			isa = PBXGroup;
+			children = (
+				3E954AA31A1F9462000A3813 /* OgreView */,
+				3E954ABD1A1F9463000A3813 /* OgreViewTests */,
+				3E954AA21A1F9462000A3813 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E954AA21A1F9462000A3813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E954AA11A1F9462000A3813 /* OgreView.app */,
+				3E954ABA1A1F9463000A3813 /* OgreViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E954AA31A1F9462000A3813 /* OgreView */ = {
+			isa = PBXGroup;
+			children = (
+				3EEFAD871A24B025001F4F49 /* Protocols */,
+				3EED63521A1FC56A006345B7 /* Views */,
+				3EED63511A1FC551006345B7 /* Controllers */,
+				3E0B3C631A2169D800023DF2 /* Resources */,
+				3E954AA81A1F9462000A3813 /* AppDelegate.h */,
+				3E954AA91A1F9462000A3813 /* AppDelegate.m */,
+				3EFA9BD91A23982C0047025A /* Config.h */,
+				3E954AAE1A1F9462000A3813 /* Main.storyboard */,
+				3E954AB11A1F9462000A3813 /* Images.xcassets */,
+				3E954AB31A1F9462000A3813 /* LaunchScreen.xib */,
+				3E954AA41A1F9462000A3813 /* Supporting Files */,
+			);
+			path = OgreView;
+			sourceTree = "<group>";
+		};
+		3E954AA41A1F9462000A3813 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E954AA51A1F9462000A3813 /* Info.plist */,
+				3E954AA61A1F9462000A3813 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E954ABD1A1F9463000A3813 /* OgreViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E954AC01A1F9463000A3813 /* OgreViewTests.m */,
+				3E954ABE1A1F9463000A3813 /* Supporting Files */,
+			);
+			path = OgreViewTests;
+			sourceTree = "<group>";
+		};
+		3E954ABE1A1F9463000A3813 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E954ABF1A1F9463000A3813 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EED63511A1FC551006345B7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3EFA9BD61A2391950047025A /* MainViewController.h */,
+				3EFA9BD71A2391950047025A /* MainViewController.m */,
+				3EEFAD8C1A25440C001F4F49 /* OgreViewController */,
+				3EEFAD841A24A715001F4F49 /* ListViewController.h */,
+				3EEFAD851A24A715001F4F49 /* ListViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3EED63521A1FC56A006345B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3EED634E1A1FC204006345B7 /* OgreView.h */,
+				3EED634F1A1FC204006345B7 /* OgreView.mm */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3EEFAD871A24B025001F4F49 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3EEFAD881A24B04C001F4F49 /* IOgreViewController.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		3EEFAD8C1A25440C001F4F49 /* OgreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3E954AAB1A1F9462000A3813 /* OgreViewController.h */,
+				3E954AAC1A1F9462000A3813 /* OgreViewController.mm */,
+				3EF588BA1A20B580007B2F1A /* OgreController.h */,
+				3EF588B91A20B57F007B2F1A /* OgreController.cpp */,
+				3EEFAD8A1A253ED7001F4F49 /* SGTRListener.h */,
+				3EEFAD891A253ED7001F4F49 /* SGTRListener.cpp */,
+			);
+			name = OgreViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E954AA01A1F9462000A3813 /* OgreView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E954AC41A1F9463000A3813 /* Build configuration list for PBXNativeTarget "OgreView" */;
+			buildPhases = (
+				3E954A9D1A1F9462000A3813 /* Sources */,
+				3E954A9E1A1F9462000A3813 /* Frameworks */,
+				3E954A9F1A1F9462000A3813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OgreView;
+			productName = OgreView;
+			productReference = 3E954AA11A1F9462000A3813 /* OgreView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E954AB91A1F9463000A3813 /* OgreViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E954AC71A1F9463000A3813 /* Build configuration list for PBXNativeTarget "OgreViewTests" */;
+			buildPhases = (
+				3E954AB61A1F9463000A3813 /* Sources */,
+				3E954AB71A1F9463000A3813 /* Frameworks */,
+				3E954AB81A1F9463000A3813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E954ABC1A1F9463000A3813 /* PBXTargetDependency */,
+			);
+			name = OgreViewTests;
+			productName = OgreViewTests;
+			productReference = 3E954ABA1A1F9463000A3813 /* OgreViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E954A991A1F9462000A3813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ToyamaTokanava;
+				TargetAttributes = {
+					3E954AA01A1F9462000A3813 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					3E954AB91A1F9463000A3813 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 3E954AA01A1F9462000A3813;
+					};
+				};
+			};
+			buildConfigurationList = 3E954A9C1A1F9462000A3813 /* Build configuration list for PBXProject "OgreView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E954A981A1F9462000A3813;
+			productRefGroup = 3E954AA21A1F9462000A3813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E954AA01A1F9462000A3813 /* OgreView */,
+				3E954AB91A1F9463000A3813 /* OgreViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E954A9F1A1F9462000A3813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0B3C681A216A2700023DF2 /* ogre.cfg in Resources */,
+				3E954AB01A1F9462000A3813 /* Main.storyboard in Resources */,
+				3E0B3C691A216A2700023DF2 /* resources.cfg in Resources */,
+				3E0B3C671A216A2700023DF2 /* media in Resources */,
+				3E954AB51A1F9462000A3813 /* LaunchScreen.xib in Resources */,
+				3E954AB21A1F9462000A3813 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E954AB81A1F9463000A3813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E954A9D1A1F9462000A3813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF588BB1A20B580007B2F1A /* OgreController.cpp in Sources */,
+				3EFA9BD81A2391950047025A /* MainViewController.m in Sources */,
+				3EEFAD861A24A715001F4F49 /* ListViewController.m in Sources */,
+				3E954AAD1A1F9462000A3813 /* OgreViewController.mm in Sources */,
+				3EED63501A1FC204006345B7 /* OgreView.mm in Sources */,
+				3E954AAA1A1F9462000A3813 /* AppDelegate.m in Sources */,
+				3E954AA71A1F9462000A3813 /* main.m in Sources */,
+				3EEFAD8B1A253ED7001F4F49 /* SGTRListener.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E954AB61A1F9463000A3813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E954AC11A1F9463000A3813 /* OgreViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E954ABC1A1F9463000A3813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E954AA01A1F9462000A3813 /* OgreView */;
+			targetProxy = 3E954ABB1A1F9463000A3813 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E954AAE1A1F9462000A3813 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E954AAF1A1F9462000A3813 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E954AB31A1F9462000A3813 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E954AB41A1F9462000A3813 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E954AC21A1F9463000A3813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E954AC31A1F9463000A3813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E954AC51A1F9463000A3813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(OGRE_SDK_ROOT)/include/OGRE\"",
+					"\"$(OGRE_SDK_ROOT)/include/OGRE/Overlay\"",
+					"\"$(OGRE_SDK_ROOT)/include/OGRE/RenderSystems/GLES\"",
+					"\"$(OGRE_SDK_ROOT)/include/OGRE/RenderSystems/GLES2\"",
+					"\"$(OGRE_SDK_ROOT)/include/OGRE/RTShaderSystem\"",
+					"\"$(OGRE_SDK_ROOT)/include/OGRE/iOS\"",
+					"\"$(OGRE_SDK_ROOT)/iOSDependencies/include/OIS\"",
+					"\"$(OGRE_SDK_ROOT)/iOSDependencies/include\"",
+				);
+				INFOPLIST_FILE = OgreView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(OGRE_SDK_ROOT)/lib/Release\"",
+					"\"$(OGRE_SDK_ROOT)/iOSDependencies/lib/release\"",
+					"\"$(OGRE_SDK_ROOT)/iOSDependencies/lib\"",
+				);
+				OGRE_SDK_ROOT = OgreSDK_iOS_1.9_ext;
+				OTHER_LDFLAGS = (
+					"-lOIS",
+					"-lOgreMainStatic",
+					"-lOgreOverlayStatic",
+					"-lRenderSystem_GLESStatic",
+					"-lRenderSystem_GLES2Static",
+					"-lOgreRTShaderSystemStatic",
+					"-lglsl_optimizer",
+					"-lhlsl2glsl",
+					"-lboost_system",
+					"-lboost_chrono",
+					"-lboost_date_time",
+					"-lboost_thread",
+					"-lboost_atomic",
+					"-lFreeType",
+					"-lFreeImage",
+					"-lzzip",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E954AC61A1F9463000A3813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(OGRE_SDK_ROOT)/include/OGRE\"",
+					"\"$(OGRE_SDK_ROOT)/include/OGRE/Overlay\"",
+					"\"$(OGRE_SDK_ROOT)/include/OGRE/RenderSystems/GLES\"",
+					"\"$(OGRE_SDK_ROOT)/include/OGRE/RenderSystems/GLES2\"",
+					"\"$(OGRE_SDK_ROOT)/include/OGRE/RTShaderSystem\"",
+					"\"$(OGRE_SDK_ROOT)/include/OGRE/iOS\"",
+					"\"$(OGRE_SDK_ROOT)/iOSDependencies/include/OIS\"",
+					"\"$(OGRE_SDK_ROOT)/iOSDependencies/include\"",
+				);
+				INFOPLIST_FILE = OgreView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(OGRE_SDK_ROOT)/lib/Release\"",
+					"\"$(OGRE_SDK_ROOT)/iOSDependencies/lib/release\"",
+					"\"$(OGRE_SDK_ROOT)/iOSDependencies/lib\"",
+				);
+				OGRE_SDK_ROOT = OgreSDK_iOS_1.9_ext;
+				OTHER_LDFLAGS = (
+					"-lOIS",
+					"-lOgreMainStatic",
+					"-lOgreOverlayStatic",
+					"-lRenderSystem_GLESStatic",
+					"-lRenderSystem_GLES2Static",
+					"-lOgreRTShaderSystemStatic",
+					"-lglsl_optimizer",
+					"-lhlsl2glsl",
+					"-lboost_system",
+					"-lboost_chrono",
+					"-lboost_date_time",
+					"-lboost_thread",
+					"-lboost_atomic",
+					"-lFreeType",
+					"-lFreeImage",
+					"-lzzip",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3E954AC81A1F9463000A3813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OgreViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OgreView.app/OgreView";
+			};
+			name = Debug;
+		};
+		3E954AC91A1F9463000A3813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OgreViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OgreView.app/OgreView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E954A9C1A1F9462000A3813 /* Build configuration list for PBXProject "OgreView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E954AC21A1F9463000A3813 /* Debug */,
+				3E954AC31A1F9463000A3813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E954AC41A1F9463000A3813 /* Build configuration list for PBXNativeTarget "OgreView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E954AC51A1F9463000A3813 /* Debug */,
+				3E954AC61A1F9463000A3813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E954AC71A1F9463000A3813 /* Build configuration list for PBXNativeTarget "OgreViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E954AC81A1F9463000A3813 /* Debug */,
+				3E954AC91A1F9463000A3813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E954A991A1F9462000A3813 /* Project object */;
+}
