@@ -175,7 +175,8 @@ void OgreController::createCameraView()
     m_pCamera = m_pSceneManager->createCamera("Camera");
     m_pCamera->setPosition(Ogre::Vector3(0, 60, 60));
     m_pCamera->lookAt(Ogre::Vector3(0, 0, 0));
-    m_pCamera->setNearClipDistance(1);
+    m_pCamera->setNearClipDistance(10);
+    m_pCamera->setFarClipDistance(160);
 
     m_pViewport = m_pRenderWindow->addViewport(m_pCamera);
     m_pViewport->setBackgroundColour(Ogre::ColourValue::White);

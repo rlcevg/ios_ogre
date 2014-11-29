@@ -14,7 +14,7 @@ attribute vec3 normal;
 uniform vec3 lightPosition; // object space
 uniform vec3 eyePosition;   // object space
 uniform vec4 shininess;
-uniform highp mat4 worldViewProj;
+uniform mat4 worldViewProj;
 
 varying float diffuseIn;
 varying float specularIn;
